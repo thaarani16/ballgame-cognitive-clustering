@@ -41,3 +41,13 @@ The dataset includes:
 - Correlation heatmaps of time features
 
 ---
+
+## 🏆 Best Clustering Model & Evaluation
+
+The performance of different clustering algorithms was evaluated using the **Silhouette Score**, which measures the separation distance between clusters. A higher score indicates well-defined, distinct clusters.
+
+**Best Performing Model:**
+- **K-Means Clustering** with `k = 3` clusters
+- **Silhouette Score:** `0.57`
+
+This result suggests that participants naturally group into three distinct cognitive performance profiles based on their task completion times.
